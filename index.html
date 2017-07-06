@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <meta charset="utf-8">
         <title>evrybit</title>
         <link rel="stylesheet" href="style.css">
@@ -10,15 +11,18 @@
                 <h1>The Oscars 2015</h1>
                 <h2>An annual American awards ceremony honoring cinematic <br>
                     achievements in the film industry</h2>
-                <p><img src="img/photo.png"></p>
-                <ul class = "nav">
-                    <li><a href="#"><img src="img/li1.png">NEWEST</a></li>
-                    <li><a href="#"><img src="img/li2.png">EMBED</a></li>
-                    <li><a href="#"><img src="img/li3.png">SHARE</a></li>
-                    <li><a href="#"><img src="img/li4.png">DONATE</a></li>
-                </ul>
+                <img src="img/photo.png" class="imgmike">
+                    <ul class = "nav">
+                        <li><a href="#" class="flex-container"><img src="img/li1.png" alt=""
+                                                                    onmouseout="this.src='img/li1.png'"
+                                                                    onmouseover="this.src='img/li1hover.png'"> EMBED</a></li>
+                        <li><a href="#" class="flex-container"><img src="img/li2.png"> EMBED</a></li>
+                        <li><a href="#" class="flex-container"><img src="img/li3.png"> SHARE</a></li>
+                        <li><a href="#" class="flex-container"><span class="border1">$</span> DONATE</a></li>
+                    </ul>
         </header>
-        <div class = "line">
+        <div class = "line flex-container-line">
+            <p> SHOW 6 NEW BITS </p>
         </div>
     </body>
 </html>
