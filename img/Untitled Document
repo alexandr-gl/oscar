@@ -1,0 +1,18 @@
+<div class="author">
+                        <span class="author-icon"><img src="img/gurdian.png">&#8194;The New York Times</span>
+                        <span>Jan 28, 4:30 pm</span>
+                        <span>Los Angeles</span>
+                    </div>
+                    <div class="arrows-links">
+                        <div class="arrows">
+                            <span><img src="img/arrow-up.png"></span>
+                            <p> 25 </p>
+                            <span><img src="img/arrow-down.png"></span>
+                        </div>
+                        <div>
+                            <span><a href="#"><img src="img/comment-icon.png">6 Comments</a></span>
+                            <span><a href="#"><img src="img/embed-icon.png">Embed</a></span>
+                            <span><a href="#"><img src="img/share-icon.png">Share</a></span>
+                            <span><a href="#"><img src="">Donate</a></span>
+                        </div>
+                    </div>
