@@ -169,6 +169,7 @@ article p
     line-height: 30px;
     word-spacing: 2px;
     letter-spacing: 0px;
+    float: left;
 }
 
 .author
@@ -205,6 +206,7 @@ article p
     flex-direction: row;
     justify-content: flex-start;
     /* align-items: center; */
+    float: left;
 }
 
 .img-article4 img
@@ -283,7 +285,86 @@ article p
     justify-content: flex-start;
 }
 
-.player
+#email
 {
+    color: #cc181e;
+}
 
+/* .audio .plyr {
+    width: 830px;
+    height: 139px; */
+
+
+/*.audio .plyr .plyr__controls button[data-plyr="play"]
+{
+    background-color: #cc181e;
+    background-image: url("img/button-eclipse.png");
+} */
+
+.audio .plyr__controls
+{
+    width: 830px;
+    height: 139px;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    border-color: #f0f0f0;
+    padding-left: 40px;
+    margin: auto;
+}
+
+.audio .plyr .plyr__volume
+{
+    transform: scale(0);
+}
+
+.audio button[data-plyr="mute"]
+{
+    transform: scale(0);
+}
+
+.audio .plyr__controls button[data-plyr="play"]
+{
+    background: #f0f0f0;
+    background-image: url("img/button-eclipse.png");
+    width: 84px;
+    height: 84px;
+    fill: #b1b7e1;
+}
+
+.audio .plyr__controls button:hover
+{
+    background: #f0f0f0;
+    background-image: url("img/button-eclipse.png");
+}
+
+.audio .plyr__controls button[data-plyr="play"] svg
+{
+    fill: #b1b7e1;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+
+.audio .plyr__controls button[data-plyr="pause"]
+{
+    background: #f0f0f0;
+    background-image: url("img/button-eclipse.png");
+    width: 84px;
+    height: 84px;
+    fill: #b1b7e1;
+}
+
+.audio .plyr__controls button[data-plyr="pause"] svg
+{
+    background-image: url("img/pause.png");
+    fill: #a3a4b6;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+
+.audio .plyr__controls .plyr__time
+{
+    position: absolute;
+    top: 100px;
 }
