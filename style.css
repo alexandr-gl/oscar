@@ -9,7 +9,11 @@ body
     font-family: Lato;
 }
 
-                                /* HEADER BEGIN */
+
+
+            /* HEADER BEGIN */
+
+
 
 header
 {
@@ -104,10 +108,16 @@ header p
     justify-content: flex-start;
     align-items: center;
 }
-       /* HEADER END */
 
 
-       /* CONTENT BEGIN */
+
+            /* HEADER END */
+
+
+
+            /* CONTENT BEGIN */
+
+
 
 .line
 {
@@ -200,6 +210,13 @@ article p
 {
     float: right;
 }
+
+.img-article3
+{
+    width: 830px;
+    height: 333px;
+}
+
 .img-article4
 {
     display: flex;
@@ -290,16 +307,11 @@ article p
     color: #cc181e;
 }
 
-/* .audio .plyr {
-    width: 830px;
-    height: 139px; */
 
 
-/*.audio .plyr .plyr__controls button[data-plyr="play"]
-{
-    background-color: #cc181e;
-    background-image: url("img/button-eclipse.png");
-} */
+        /* AUDIO PLAYER  BEGIN*/
+
+
 
 .audio .plyr__controls
 {
@@ -356,15 +368,130 @@ article p
 
 .audio .plyr__controls button[data-plyr="pause"] svg
 {
-    background-image: url("img/pause.png");
     fill: #a3a4b6;
     width: 32px;
     height: 32px;
     margin: auto;
+    background-image: url("img/pause.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.audio button[data-plyr="pause"] svg use
+{
+    transform: scale(0);
 }
 
 .audio .plyr__controls .plyr__time
 {
     position: absolute;
-    top: 100px;
+    top: 107px;
+    left: 740px;
+    font-size: 10pt;
+}
+
+.audio .plyr__progress
+{
+    position: absolute;
+    top: 127px;
+    left: 150px;
+    width: 625px;
+}
+
+.audio input[data-plyr="seek"]
+{
+    transform: scale(0);
+}
+
+.audio plyr__progress--played
+{
+    color: #c8c8d3;
+}
+
+
+
+            /* AUDIO PLAYER END */
+
+
+            /* VIDEO PLAYER BEGIN */
+
+
+.video
+{
+    width: 790px;
+    height: 355px;
+    border: 19px solid #f0f0f0;
+    border-radius: 2px;
+}
+.video .plyr__video-wrapper
+{
+    border-radius: 2px;
+}
+.video .plyr__video-wrapper video
+{
+    width: 790px;
+    height: 355px;
+}
+
+.video .plyr__controls
+{
+    width: 790px;
+}
+
+.video .plyr__controls button:hover
+{
+    background: none;
+}
+
+.video button[data-plyr="mute"]
+{
+    transform: scale(0);
+}
+
+.video span[class="plyr__volume"]
+{
+    transform: scale(0);
+}
+
+.video button[data-plyr="fullscreen"]
+{
+    transform: scale(0);
+}
+
+.video input[class="plyr__progress--seek"]
+{
+    -webkit-transform: scale(0);
+}
+
+.video .plyr__progress--played
+{
+    color: #ffffff;
+    opacity: 0.5;
+
+}
+
+.video .plyr__progress
+{
+    position: absolute;
+    width: 717px;
+    left: 40px;
+
+}
+
+.video span[class="plyr__time"]
+{
+    position: absolute;
+    top: 35px;
+    left: 700px;
+    font-size: 10pt;
+}
+
+.video button[data-plyr="play"] svg use
+{
+    transform: scale(0);
+}
+
+.video button[data-plyr="play"] svg
+{
+
 }

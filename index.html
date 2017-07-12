@@ -57,7 +57,7 @@
             </article>
             <article>
                 <h3>From 'American Sniper' to 'Whiplash' and everything in between</h3>
-                    <img src="img/Article-photo1.png">
+                    <img src="img/Article-photo1.png" class="img-article3">
                     <p>This year’s Oscars nominations were announced Thursday morning and, despite a few snubs and surprises, the Best Picture nominees were mostly the usual batch of well-received prestige pics—though they also received reviews that weren’t always 100% positive. </p>
                     <div class="links">
                         <ul class="author">
@@ -132,14 +132,40 @@
             <article>
                 <h3>Oscar-winning movie soundtracks from history</h3>
                     <div id="audio" class="audio">
-                        <audio crossorigin="" class="plyr--setup">
+                        <audio crossorigin="">
                             <source src="Audio/audio.mp3" type="audio/mp3">
                         </audio>
                     </div>
                 <p>Discover all the winners of the prestigious Best Original Score category at the Oscars - almost 80 years of fantastic movie soundtracks.</p>
+                <div class="links">
+                    <ul class="author">
+                        <li class="author"><img src="img/gurdian.png">The Guardian</li>
+                        <li class="author">Jan 24, 2:20 pm</li>
+                        <li class="author">London</li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <!--<h3>Interstellar Movie - Official Trailer 3</h3>-->
+
+                    <div id="video" class="video">
+                        <video poster="img/videoposter.png" controls class="plyr--setup">
+                            <source src="Video/Trailer.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                <p>The latest trailer from Christopher Nolan's INTERSTELLAR. In theaters & IMAX November 7th.</p>
+                <div class="links">
+                    <ul class="author">
+                        <li class="author"><img src="img/gurdian.png">The Guardian</li>
+                        <li class="author">Jan 24, 2:20 pm</li>
+                        <li class="author">London</li>
+                    </ul>
+                </div>
             </article>
         </div>
         <script src="plyr-master/src/js/plyr.js"></script>
         <script>plyr.setup("#audio");</script>
+        <script>plyr.setup("#video");</script>
     </body>
 </html>
