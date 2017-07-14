@@ -425,12 +425,12 @@ article p
 }
 .video .plyr__video-wrapper
 {
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .video .plyr__video-wrapper video
 {
     width: 790px;
-    height: 355px;
+    height: 353px;
 }
 
 .video .plyr__controls
@@ -474,24 +474,211 @@ article p
 {
     position: absolute;
     width: 717px;
-    left: 40px;
+    left: 43px;
 
 }
 
 .video span[class="plyr__time"]
 {
     position: absolute;
-    top: 35px;
-    left: 700px;
-    font-size: 10pt;
+    top: 41px;
+    left: 726px;
+    font-size: 9pt;
 }
 
-.video button[data-plyr="play"] svg use
+.video button[class="plyr__play-large"] svg use
 {
     transform: scale(0);
 }
 
-.video button[data-plyr="play"] svg
+.video button[class="plyr__play-large"] svg
 {
+    background: url("img/play-large.png");
+    width: 32px;
+    height: 37px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
 
+.video .plyr__play-large
+{
+    background: none;
+    border: 2px solid #b7b7b5;
+    opacity: 0.5;
+    width: 97px;
+    height: 97px;
+    fill: #b1b7e1;
+    position: absolute;
+    left: 386px;
+    top: 168px;
+}
+
+.video .plyr__controls button[data-plyr="play"] svg use
+{
+    transform: scale(0);
+}
+
+.video .plyr__controls button[data-plyr="play"] svg
+{
+    background: url("img/play-small.png");
+    width: 21px;
+    height: 23px;
+}
+
+            /* VIDEO PLAYER END */
+
+
+            /* LINE BEGIN */
+
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-bottom: 60px;
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: #b2b2b2;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+
+            /* LINE END */
+
+            /* REPLIES BEGIN */
+
+
+.comment
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 64px;
+}
+
+.comment ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comment li
+{
+    padding-right: 20px;
+}
+
+.comment .com-author
+{
+    font-size: 12pt;
+    font-weight:700;
+    color: black;
+}
+
+.comment .date
+{
+    font-size: 10pt;
+    color: #8b8b8b;
+}
+
+.comment img
+{
+    border-radius: 500px;
+    width: 73px;
+    height: 73px;
+}
+
+.comment-content
+{
+    padding-left: 23px;
+}
+
+.comment-content a
+{
+    text-decoration: none;
+    color: #6987bf;
+}
+
+comment-content p
+{
+    color: #020202;
+    font-weight: 100;
+}
+
+.padding-content
+{
+    padding-bottom: 8px;
+}
+
+.replies
+{
+    padding-left: 95px;
+}
+
+.comments textarea
+{
+    height: 180px;
+    width: 830px;
+    border-radius: 3px;
+    background: #f0f0f0;
+    border-color: #f0f0f0;
+    resize: none;
+    color: #a3a2a3;
+}
+
+.list-pages
+{
+    list-style: none;
+}
+
+.list-pages li
+{
+    padding-right: 26px;
+    display: inline;
+    font-size: 12pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+    height: 99px;
+    width: 1600px;
+    background: black;
+    color: #a5a5a5;
 }
