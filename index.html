@@ -7,70 +7,74 @@
         <meta charset="utf-8">
         <title>evrybit</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_margin.css">
     </head>
     <body>
         <header>
                 <h1>The Oscars 2015</h1>
                 <h2>An annual American awards ceremony honoring cinematic <br>
                     achievements in the film industry</h2>
-            <div class="mike"><img src="img/photo.png" class="imgmike"> Mike Wiliams </div>
+
+            <ul class="mike">
+                        <li class="mike"><img src="img/photo.png" class="imgmike"> Mike Wiliams</li>
+                        <li class="mike">Jan. 22, 3:45 pm</li>
+                    </ul>
+
                     <ul class = "nav">
-                        <li><a href="#" class="flex-container"><img src="img/li1.png" alt=""
-                                                                    onmouseout="this.src='img/li1.png'"
-                                                                    onmouseover="this.src='img/li1hover.png'"> EMBED</a></li>
-                        <li><a href="#" class="flex-container"><img src="img/li2.png"> EMBED</a></li>
-                        <li><a href="#" class="flex-container"><img src="img/li3.png"> SHARE</a></li>
-                        <li><a href="#" class="flex-container"><span class="border1">$</span> DONATE</a></li>
+                        <li><a href="#"><img src="img/li1.png" alt=""> NEWEST</a></li>
+                        <li><a href="#"><img src="img/li2.png"> EMBED</a></li>
+                        <li id="share"><a href="#"><img src="img/li3.png"> SHARE</a></li>
+                        <li><a href="#"><span class="border1">$</span><p>DONATE</p></a></li>
                     </ul>
         </header>
         <div class = "line flex-container-line">
             <p> SHOW 6 NEW BITS </p>
         </div>
         <div class="content flex-content">
-            <article>
+            <article id="article1">
                 <h3>Eddie Redmayne and Birdman pull ahead in Oscars race</h3>
                     <p>Eddie Redmayne pulled ahead of his rivals in the race for the best actor Oscar when he won a Screen Actor’s Guild award for his role as Stephen Hawking in The Theory of Everything on Sunday night. The 32-year-old actor beat rivals Benedict Cumberbatch, Steve Carell, Jake Gyllenhaal and Michael Keaton to the prize for male actor in a leading role at the ceremony in Los Angeles.</p>
                     <div class="links">
                         <ul class="author">
-                            <li class="author"><img src="img/gurdian.png">The gurdian</li>
-                            <li class="author">Jan 27, 11:15 pm </li>
-                            <li class="author">Los Angeles</li>
+                            <li class="author" id="art1_author"><img src="img/gurdian.png">The Guardian</li>
+                            <li class="author" id="art1_date">Jan 27, 11:15 pm </li>
+                            <li class="author" id="art1_place">Los Angeles</li>
                         </ul>
                         <div class="drop-down">
                             <img src="img/drop-downhover.png">
                         </div>
                     </div>
             </article>
-            <article>
+            <article id="article2">
                 <h3>Weekend Scrambles Top Oscar Prospects</h3>
                     <p>An unexpected double win for Alejandro G. Iñárritu’s “Birdman,” at the expense of Richard Linklater’s “Boyhood,” jolted the Oscar race over the weekend, even as Harvey Weinstein made a bid to enhance his own contender, “The Imitation Game,” as a filmic standard-bearer against past injustices directed at gays.</p>
                     <div class="links">
                         <ul class="author">
-                            <li class="author"><img src="img/gurdian.png">The gurdian</li>
-                            <li class="author">Jan 27, 11:15 pm </li>
-                            <li class="author">Los Angeles</li>
+                            <li class="author" id="art2_author"><img src="img/times.png">The New York Times</li>
+                            <li class="author" id="art2_date">Jan 28, 4:30 pm</li>
+                            <li class="author" id="art2_place">Los Angeles</li>
                         </ul>
                         <div class="drop-down">
                             <img src="img/drop-down.png">
                         </div>
                     </div>
             </article>
-            <article>
+            <article id="article3">
                 <h3>From 'American Sniper' to 'Whiplash' and everything in between</h3>
                     <img src="img/Article-photo1.png" class="img-article3">
                     <p>This year’s Oscars nominations were announced Thursday morning and, despite a few snubs and surprises, the Best Picture nominees were mostly the usual batch of well-received prestige pics—though they also received reviews that weren’t always 100% positive. </p>
                     <div class="links">
                         <ul class="author">
-                            <li class="author"><img src="img/gurdian.png">The gurdian</li>
-                            <li class="author">Jan 27, 11:15 pm </li>
-                            <li class="author">Los Angeles</li>
+                            <li class="author" id="art3_author"><img src="img/time.png" id="time">Time</li>
+                            <li class="author" id="art3_date">Jan 28, 1:30 pm </li>
+                            <li class="author" id="art3_place">New York</li>
                         </ul>
                         <div class="drop-down">
                             <img src="img/drop-down.png">
                         </div>
                     </div>
             </article>
-            <article>
+            <article id="article4">
                 <h3>87th Academy Awards Nominations</h3>
                     <p>The 2015 Academy Award nominations were announced this morning, and for the first time ever all 24 nominations were broadcast live. The nominations were announced by directors J.J Abrams and Alfonso Cuarón, Chris Pine, and Academy President Cheryl Boone Isaacs...</p>
                     <div class="img-article4">
@@ -80,9 +84,8 @@
                     </div>
                     <div class="links">
                         <ul class="author">
-                            <li class="author"><img src="img/gurdian.png">The gurdian</li>
-                            <li class="author">Jan 27, 11:15 pm </li>
-                            <li class="author">Los Angeles</li>
+                            <li class="author" id="art4_author"><img src="img/photo.png">Mike Williams</li>
+                            <li class="author" id="art4_date">Jan 26, 4:30 pm</li>
                         </ul>
                         <div class="drop-down">
                             <img src="img/drop-down.png">
@@ -223,10 +226,16 @@
                         <li>Next</li>
                     </ul>
                 </div>
-            <div data-type="youtube" data-video-id="bTqVqk7FSmY" id="bTqVqk7FSmY"></div>
+                <div data-type="youtube" data-video-id="bTqVqk7FSmY" id="bTqVqk7FSmY"></div>
+            <button class="tip-the-author"><img src="img/donate.png"><p>TIP THE AUTHOR</p></button>
             </div>
             <footer>
-                © Copyright 2017
+                <p>© Copyright 2017</p>
+                <ul class="social-net">
+                    <li><a href="#"><button><i class="fa fa-linkedin" aria-hidden="true"></i></button></a></li>
+                    <li><a href="#"><button><i class="fa fa-vk" aria-hidden="true"></i></button></a></li>
+                    <li><a href="#"><button><i class="fa fa-facebook" aria-hidden="true"></i></button></a></li>
+                </ul>
             </footer>
         <script src="plyr-master/src/js/plyr.js"></script>
         <script>plyr.setup("#audio");</script>
