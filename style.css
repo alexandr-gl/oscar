@@ -31,8 +31,7 @@ header h1
     word-spacing: 7px;
     color: #ffffff;
     font-size: 60px;
-    margin-bottom: -30px;
-    padding-bottom: 28px;
+    margin-bottom: 0px;
 }
 
 header h2
@@ -250,6 +249,7 @@ article p
     justify-content: flex-start;
     /* align-items: center; */
     float: left;
+	margin-bottom: 0px;
 }
 
 .img-article4 img
@@ -264,7 +264,8 @@ article p
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .links-menu a
@@ -273,7 +274,6 @@ article p
     color: #9c9c9c;
     font-size: 14px;
     font-weight: 300;
-    margin-right: 25px;
 }
 
 .border-share

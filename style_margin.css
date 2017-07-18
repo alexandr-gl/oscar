@@ -59,6 +59,7 @@
 #article4
 {
      margin-top: 45px;
+	 margin-bottom: 64px;
 }
 
 #article4 h3
@@ -78,4 +79,42 @@
 #art4_date
 {
     margin-right: 39px;
+}
+#article4 div[class="links"]
+{
+	padding-top: 25px;
+}
+
+
+#article5
+{
+	margin-top: 64px;
+}
+#article5 .links
+{
+	justify-content: flex-start;
+}
+#art5_author
+{
+    margin-right: 40px;
+}
+#art5_date
+{
+    margin-right: 81px;
+}
+#art5_arrup
+{
+	margin-right: 5px;
+}
+#art5_number
+{
+	margin-right: 6px;
+	margin-left: 6px;
+	color: #88c072;
+	font-weight: 700;
+}
+#art5_arrdown
+{
+	margin-left: 6px;
+	margin-right: 25px;
 }
