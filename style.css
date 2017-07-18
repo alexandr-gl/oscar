@@ -83,7 +83,7 @@ header p
 .nav
 {
     margin-left: 215px;
-    margin-top: 210px;
+    margin-top: 208px;
     font-size: 14px;
 }
 
@@ -110,7 +110,7 @@ header p
     color: #955c24;
 }
 
-.border1
+.donate-border1
 {
     border-style: solid;
     border-width: 1px;
@@ -266,6 +266,15 @@ article p
     flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
+    margin-top: 2px;
+}
+
+.flex-links-menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .links-menu a
@@ -275,13 +284,32 @@ article p
     font-size: 14px;
     font-weight: 300;
 }
+.flex-links-menu img
+{
+    margin-right: 5px;
+}
+
+.flex-links-menu p
+{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #737373;
+}
+
+#article5 .donate-border1
+{
+    width: 18px;
+    height: 18px;
+}
 
 .border-share
 {
     height: 183px;
     width: 114px;
     position: relative;
-    left: 500px;
+    left: 673px;
+    top: 2px;
 }
 
 .rectangle
@@ -331,6 +359,16 @@ article p
 #email
 {
     color: #cc181e;
+}
+
+#article6
+{
+    position: relative;
+}
+.tweet
+{
+    position: absolute;
+    margin-top: 1px;
 }
 
 

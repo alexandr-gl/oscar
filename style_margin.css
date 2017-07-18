@@ -64,12 +64,15 @@
 
 #article4 h3
 {
-    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 19px;
 }
 
 #article4 p
 {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 #art4_author
@@ -82,17 +85,22 @@
 }
 #article4 div[class="links"]
 {
-	padding-top: 25px;
+	padding-top: 24px;
 }
 
 
 #article5
 {
-	margin-top: 64px;
+	margin-top: 66px;
 }
 #article5 .links
 {
 	justify-content: flex-start;
+    padding-top: 23px;
+}
+#article5 p
+{
+    margin-bottom: 0px;
 }
 #art5_author
 {
@@ -108,7 +116,7 @@
 }
 #art5_number
 {
-	margin-right: 6px;
+	margin-right: 5px;
 	margin-left: 6px;
 	color: #88c072;
 	font-weight: 700;
@@ -116,5 +124,24 @@
 #art5_arrdown
 {
 	margin-left: 6px;
-	margin-right: 25px;
+	margin-right: 23px;
+}
+#art5_comm
+{
+    margin-right: 21px;
+}
+#art5_embed
+{
+    margin-right: 21px;
+}
+#art5_share
+{
+    margin-right: 17px;
+}
+
+
+.share-links span
+{
+    text-align: center;
+    padding-right: 5px;
 }
