@@ -18,7 +18,7 @@ body
 header
 {
     background-image: url("img/bgheader.png");
-    width: 1600px;
+    max-width: 1600px;
     height: 565px;
     color: #ffffff;
 }
@@ -133,7 +133,7 @@ header p
 {
     background-color: #cfbb95;
     height: 56px;
-    width: 1600px;
+    max-width: 1600px;
     padding-top: 0;
 }
 
@@ -161,14 +161,8 @@ header p
 .content
 {
     padding-left: 384px;
-    width: 830px;
+    max-width: 830px;
 }
-
-/*article
-{
-    margin-top: 41px;
-    margin-bottom: 50px;
-} */
 
 article h3
 {
@@ -240,6 +234,7 @@ article p
     width: 830px;
     height: 333px;
     margin-bottom: 20px;
+    border-radius: 2px;
 }
 
 .img-article4
@@ -257,6 +252,7 @@ article p
     width: 261px;
     height: 191px;
     padding-right: 25px;
+    border-radius: 2px;
 }
 
 .links-menu
@@ -305,11 +301,9 @@ article p
 
 .border-share
 {
-    height: 183px;
-    width: 114px;
-    position: relative;
-    left: 673px;
-    top: 2px;
+    position: absolute;
+    left: -11px;
+    top: 26px;
 }
 
 .rectangle
@@ -369,6 +363,20 @@ article p
 {
     position: absolute;
     margin-top: 1px;
+	margin-left: 0px;
+}
+#tweet
+{
+	margin-left: -7px;
+	
+}
+#art6_links
+{
+	margin-top: 450px;
+}
+#article6 .links
+{
+	padding-top: 0px;
 }
 
 
@@ -377,6 +385,10 @@ article p
 
 
 
+.audio
+{
+    margin-bottom: 30px;
+}
 .audio .plyr__controls
 {
     width: 830px;
@@ -385,6 +397,7 @@ article p
     border-radius: 2px;
     border-color: #f0f0f0;
     padding-left: 40px;
+    padding-top: 4px;
     margin: auto;
 }
 
@@ -449,7 +462,7 @@ article p
 .audio .plyr__controls .plyr__time
 {
     position: absolute;
-    top: 107px;
+    top: 112px;
     left: 740px;
     font-size: 10pt;
 }
@@ -457,7 +470,7 @@ article p
 .audio .plyr__progress
 {
     position: absolute;
-    top: 127px;
+    top: 134px;
     left: 150px;
     width: 625px;
 }
@@ -467,7 +480,7 @@ article p
     transform: scale(0);
 }
 
-.audio plyr__progress--played
+.audio .plyr__progress--played
 {
     color: #c8c8d3;
 }
@@ -480,12 +493,19 @@ article p
             /* VIDEO PLAYER BEGIN */
 
 
+/*#article8 h3
+{
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+} */
 .video
 {
     width: 790px;
     height: 355px;
     border: 19px solid #f0f0f0;
     border-radius: 2px;
+    margin-top: 58px;
+    margin-bottom: 25px;
 }
 .video .plyr__video-wrapper
 {
@@ -531,22 +551,22 @@ article p
 {
     color: #ffffff;
     opacity: 0.5;
-
 }
 
 .video .plyr__progress
 {
     position: absolute;
     width: 717px;
-    left: 43px;
+    left: 46px;
+    top: 55px;
 
 }
 
 .video span[class="plyr__time"]
 {
     position: absolute;
-    top: 41px;
-    left: 726px;
+    top: 38px;
+    left: 730px;
     font-size: 9pt;
 }
 
@@ -574,10 +594,15 @@ article p
     height: 97px;
     fill: #b1b7e1;
     position: absolute;
-    left: 386px;
-    top: 168px;
+    left: 389px;
+    top: 169px;
 }
-
+.video .plyr__controls button[data-plyr="play"]
+{
+    position: absolute;
+    top: 47px;
+    left: 12px;
+}
 .video .plyr__controls button[data-plyr="play"] svg use
 {
     transform: scale(0);
@@ -596,37 +621,44 @@ article p
             /* LINE BEGIN */
 
 
-.strike {
+.strike
+{
+    position: relative;
     display: block;
     text-align: center;
-    overflow: hidden;
     white-space: nowrap;
-    padding-bottom: 60px;
+    left: -7px;
+    margin-bottom: 52px;
 }
 
 .strike > span {
     position: relative;
     display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+
 }
 
 .strike > span:before,
 .strike > span:after {
     content: "";
     position: absolute;
-    top: 50%;
-    width: 9999px;
+    top: 57%;
     height: 1px;
     background: #b2b2b2;
 }
 
-.strike > span:before {
+.strike > span:before
+{
+    width: 365px;
     right: 100%;
-    margin-right: 15px;
+    margin-right: 7px;
 }
 
 .strike > span:after {
     left: 100%;
-    margin-left: 15px;
+    width: 378px;
+    margin-left: 9px;
 }
 
 
@@ -672,14 +704,15 @@ article p
 
 .comment img
 {
-    border-radius: 500px;
+    border-radius: 73px;
     width: 73px;
     height: 73px;
 }
 
 .comment-content
 {
-    padding-left: 23px;
+    margin-left: 23px;
+    line-height: 25px;
 }
 
 .comment-content a
@@ -688,7 +721,7 @@ article p
     color: #6987bf;
 }
 
-comment-content p
+.comment-content p
 {
     color: #020202;
     font-weight: 100;
@@ -696,7 +729,7 @@ comment-content p
 
 .padding-content
 {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .replies

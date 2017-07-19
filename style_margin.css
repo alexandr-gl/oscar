@@ -92,6 +92,7 @@
 #article5
 {
 	margin-top: 66px;
+    margin-bottom: 71px;
 }
 #article5 .links
 {
@@ -138,10 +139,72 @@
 {
     margin-right: 17px;
 }
+.li-share
+{
+    position: relative;
+}
 
 
 .share-links span
 {
     text-align: center;
     padding-right: 5px;
+}
+
+#article6
+{
+    margin-bottom: 91px;
+}
+#art6_author
+{
+	margin-right: 44px;
+}
+
+#article7
+{
+    margin-bottom: 90px;
+}
+#article7 h3
+{
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+	margin-top: 0px;
+}
+#article7 .links
+{
+    padding-top: 0px;
+}
+#article7 p
+{
+    margin-bottom: 33px;
+}
+#art7_author
+{
+    margin-right: 39px;
+}
+#art7_date
+{
+    margin-right: 41px;
+}
+
+#article8
+{
+    margin-bottom: 50px;
+}
+#article8 .links
+{
+    padding-top: 0px;
+}
+
+#article8 p
+{
+    margin-bottom: 7px;
+}
+#art8_author
+{
+    margin-right: 39px;
+}
+#art8_date
+{
+    margin-right: 41px;
 }

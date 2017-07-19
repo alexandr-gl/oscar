@@ -106,35 +106,42 @@
                             <li><a href="#" id="art5_arrdown"><img src="img/arrow-down.png"></a> </li>
                             <li><a href="#" class="flex-links-menu" id="art5_comm"><img src="img/comment-icon.png">6 Comments</a></li>
                             <li><a href="#" class="flex-links-menu" id="art5_embed"><img src="img/embed-icon.png">Embed</a></li>
-                            <li><a href="#" class="flex-links-menu" id="art5_share"><img src="img/share-icon.png">Share</a></li>
+                            <li class="li-share">
+                                <a href="#" class="flex-links-menu" id="art5_share"><img src="img/share-icon.png">Share</a>
+                                <div class="border-share">
+                                    <div class="rectangle">
+                                        <ul class="share-links">
+                                            <li><a href="#"><span id="email"><i class="fa fa-paper-plane" aria-hidden="true" ></i></span> Email</a></li>
+                                            <li><a href="#"><span id="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></span> Facebook</a></li>
+                                            <li><a href="#"><span id ><i class="fa fa-twitter" aria-hidden="true"></i></span> Twitter</a></li>
+                                            <li><a href="#"><span><i class="fa fa-pinterest" aria-hidden="true"></i></span> Pinterest</a></li>
+                                            <li><a href="#"><span><i class="fa fa-google-plus-official" aria-hidden="true"></i></span> Google</a></li>
+                                            <li><a href="#"><span><i class="fa fa-tumblr" aria-hidden="true"></i></span> Tumblr</a></li>
+                                        </ul>
+                                    </div>
+                                    <div id="square">
+                                    </div>
+                                </div>
+                            </li>
                             <li><a href="#" class="flex-links-menu"><span class="donate-border1">$</span><p>Donate</p></a></li>
                         </ul>
                     </div>
             </article>
-            <div class="border-share">
-                <div class="rectangle">
-                    <ul class="share-links">
-                        <li><a href="#"><span id="email"><i class="fa fa-paper-plane" aria-hidden="true" ></i></span> Email</a></li>
-                        <li><a href="#"><span id="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></span> Facebook</a></li>
-                        <li><a href="#"><span id ><i class="fa fa-twitter" aria-hidden="true"></i></span> Twitter</a></li>
-                        <li><a href="#"><span><i class="fa fa-pinterest" aria-hidden="true"></i></span> Pinterest</a></li>
-                        <li><a href="#"><span><i class="fa fa-google-plus-official" aria-hidden="true"></i></span> Google</a></li>
-                        <li><a href="#"><span><i class="fa fa-tumblr" aria-hidden="true"></i></span> Tumblr</a></li>
-                    </ul>
-                </div>
-                <div id="square">
-                </div>
-            </div>
             <article id="article6">
                 <div class="tweet">
-                    <img src="img/tweet.png">
-                    <ul class="author">
-                        <li class="author"><img src="img/gurdian.png">Mike Williams</li>
-                        <li class="author">Jan 24, 4:35 pm</li>
-                    </ul>
-                    </div>
+                    <img src="img/tweet.png" id="tweet">
+				</div>
+				<div class="links" id="art6_links">
+					<ul class="author">
+						<li class="author" id="art6_author"><img src="img/photo.png">Mike Williams</li>
+						<li class="author" id="art6_date">Jan 24, 4:35 pm</li>
+					</ul>
+					<div class="drop-down">
+						<img src="img/drop-down.png">
+					</div>
+				</div>
             </article>
-            <article>
+            <article id="article7">
                 <h3>Oscar-winning movie soundtracks from history</h3>
                     <div id="audio" class="audio">
                         <audio crossorigin="">
@@ -144,14 +151,14 @@
                 <p>Discover all the winners of the prestigious Best Original Score category at the Oscars - almost 80 years of fantastic movie soundtracks.</p>
                 <div class="links">
                     <ul class="author">
-                        <li class="author"><img src="img/gurdian.png">The Guardian</li>
-                        <li class="author">Jan 24, 2:20 pm</li>
+                        <li class="author" id="art7_author"><img src="img/gurdian.png">The Guardian</li>
+                        <li class="author" id="art7_date">Jan 24, 2:20 pm</li>
                         <li class="author">London</li>
                     </ul>
                 </div>
             </article>
-            <article>
-                <!--<h3>Interstellar Movie - Official Trailer 3</h3>-->
+            <article id="article8">
+                <h3>Interstellar Movie - Official Trailer 3</h3>
 
                     <div id="video" class="video">
                         <video poster="img/videoposter.png" controls class="plyr--setup">
@@ -162,8 +169,8 @@
                 <p>The latest trailer from Christopher Nolan's INTERSTELLAR. In theaters & IMAX November 7th.</p>
                 <div class="links">
                     <ul class="author">
-                        <li class="author"><img src="img/gurdian.png">The Guardian</li>
-                        <li class="author">Jan 24, 2:20 pm</li>
+                        <li class="author" id="art8_author"><img src="img/gurdian.png">The Guardian</li>
+                        <li class="author" id="art8_date">Jan 24, 2:20 pm</li>
                         <li class="author">London</li>
                     </ul>
                 </div>
