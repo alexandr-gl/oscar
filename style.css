@@ -7,6 +7,7 @@
 body
 {
     font-family: Lato;
+    max-width: 1600px;
 }
 
 
@@ -18,12 +19,15 @@ body
 header
 {
     background-image: url("img/bgheader.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 1600px;
     height: 565px;
     color: #ffffff;
 }
 
-header h1
+.header__tittle
 {
     padding-top: 100px;
     padding-left: 215px;
@@ -160,7 +164,7 @@ header p
 
 .content
 {
-    padding-left: 384px;
+    margin-left: 384px;
     max-width: 830px;
 }
 
@@ -628,7 +632,7 @@ article p
     text-align: center;
     white-space: nowrap;
     left: -7px;
-    margin-bottom: 52px;
+    margin-bottom: 51px;
 }
 
 .strike > span {
@@ -672,7 +676,6 @@ article p
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-bottom: 64px;
 }
 
 .comment ul
@@ -691,14 +694,14 @@ article p
 
 .comment .com-author
 {
-    font-size: 12pt;
+    font-size: 16px;
     font-weight:700;
     color: black;
 }
 
 .comment .date
 {
-    font-size: 10pt;
+    font-size: 14px;
     color: #8b8b8b;
 }
 
@@ -707,12 +710,12 @@ article p
     border-radius: 73px;
     width: 73px;
     height: 73px;
+    margin-top: 2px;
 }
 
 .comment-content
 {
-    margin-left: 23px;
-    line-height: 25px;
+    margin-left: 24px;
 }
 
 .comment-content a
@@ -725,39 +728,79 @@ article p
 {
     color: #020202;
     font-weight: 100;
+    margin-bottom: 0px;
 }
 
 .padding-content
 {
-    margin-bottom: 8px;
+
 }
 
 .replies
 {
-    padding-left: 95px;
+    margin-left: 94px;
 }
 
 .comments textarea
 {
-    height: 180px;
-    width: 830px;
+    height: 160px;
+    width: 810px;
     border-radius: 3px;
     background: #f0f0f0;
     border-color: #f0f0f0;
     resize: none;
     color: #a3a2a3;
+    margin-top: 52px;
+    font-size: 14px;
+    padding-left: 18px;
+    padding-top: 17px;
+    margin-bottom: 33px;
 }
 
 .list-pages
 {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: -4px;
 }
 
 .list-pages li
 {
-    padding-right: 26px;
     display: inline;
-    font-size: 12pt;
+    font-size: 16px;
+}
+.list-pages a
+{
+    text-decoration: none;
+    color: #8d8d8d;
+}
+.list-pages a:hover
+{
+    color: #d98934;
+}
+#current
+{
+    font-weight: 700;
+    color: #59595a;
+}
+.youtube
+{
+    width: 790px;
+    height: 473px;
+    border: 19px solid #f0f0f0;
+    border-radius: 2px;
+    margin-bottom: 28px;
+}
+.youtube .plyr__video-wrapper
+{
+    height: 473px;
+}
+#article9 p
+{
+    padding-left: 16px;
 }
 
 
@@ -775,13 +818,21 @@ article p
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 99px;
 }
-
+.tip-the-author img
+{
+    margin-left: 5px;
+    margin-right: 14px;
+}
 .tip-the-author p
 {
     color: #8491bd;
     font-size: 20px;
+    word-spacing: -5px;
+    letter-spacing: 1px;
 }
+
 
 
             /* END TIP THE AUTHOR */
@@ -805,7 +856,7 @@ footer
     align-items: center;
     list-style: none;
     position: relative;
-    left: 1200px;
+    left: 1133px;
 }
 
 .social-net button
@@ -825,4 +876,5 @@ footer p
 {
     position: relative;
     left: 215px;
+    font-size: 18px;
 }

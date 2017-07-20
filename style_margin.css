@@ -208,3 +208,93 @@
 {
     margin-right: 41px;
 }
+
+#comment1
+{
+    margin-bottom: 61px;
+}
+#comment1 ul
+{
+    margin-bottom: 9px;
+}
+#comment1 p
+{
+    margin-bottom: 7px;
+    letter-spacing: 0px;
+}
+#comment2
+{
+    margin-bottom: 47px;
+}
+#comment2 ul
+{
+    margin-bottom: 4px;
+}
+#comment2 p
+{
+    line-height: 27px;
+    letter-spacing: 0px;
+    margin-bottom: 5px;
+}
+#reply1
+{
+    margin-bottom: 44px;
+}
+#reply1 ul
+{
+    margin-bottom: 6px;
+}
+#reply1 p
+{
+    margin-bottom: 8px;
+}
+#reply2 .comment-content
+{
+    margin-left: 21px;
+}
+#reply2 ul
+{
+    margin-bottom: 8px;
+}
+#reply2 p
+{
+    margin-bottom: 7px;
+}
+#prev
+{
+    margin-right: 27px;
+    letter-spacing: -1px;
+}
+#p2
+{
+    margin-right: 22px;
+}
+#p3
+{
+    margin-right: 20px;
+}
+#p4
+{
+    margin-right: 22px;
+}
+#p5
+{
+    margin-right: 26px;
+}
+#next
+{
+    letter-spacing: -1px;
+}
+#article9
+{
+    margin-top: 54px;
+    margin-bottom: 67px;
+}
+#article9 .links
+{
+    margin-left: 16px;
+}
+#art9_author
+{
+    margin-right: 43px;
+}
