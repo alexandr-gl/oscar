@@ -7,7 +7,7 @@
 body
 {
     font-family: Lato;
-    max-width: 1600px;
+    max-width: 100%;
 }
 
 
@@ -43,7 +43,7 @@ header h2
     word-spacing: 3px;
     color: #ffffff;
     font-size: 30px;
-    padding-left: 215px;
+    margin-left: 215px;
     font-weight: 300;
     margin-bottom: 23px;
 }
@@ -164,8 +164,9 @@ header p
 
 .content
 {
-    margin-left: 384px;
-    max-width: 830px;
+    margin-left: 24%;
+    max-width: 1000px;
+    width: 830px;
 }
 
 article h3

@@ -2,11 +2,16 @@
     html, body, footer, header
     {
         width: 100%;
+        background-position: 50% 50%;
     }
     .content
     {
-        margin-left: 24%;
-        width: 52%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    article
+    {
+        width: 100%;
     }
     .img-article3
     {
@@ -16,6 +21,7 @@
     .img-article4
     {
         width: 100%;
+        height: auto;
     }
     .img-article4 img
     {
@@ -23,12 +29,32 @@
         width: 31%;
         height: auto;
     }
+    .social-net
+    {
+        left: 50%;
+    }
+    .video
+    {
+        height: auto;
+    }
+    h3
+    {
+        font-size: 30px;
+    }
+
 
 }
-@media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
+
     .content
     {
-        margin-left: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
         width: 100%;
     }
-}
+
+    article h3
+    {
+        font-size: 20px;
+    }
+} */
