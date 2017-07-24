@@ -1,4 +1,4 @@
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1590px) {
     html, body, footer, header
     {
         width: 100%;
@@ -6,12 +6,9 @@
     }
     .content
     {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    article
-    {
-        width: 100%;
+        width: 52%;
+        margin-left: 24%;
+        margin-right: 24%;
     }
     .img-article3
     {
@@ -33,28 +30,132 @@
     {
         left: 50%;
     }
-    .video
+    .header__tittle
     {
-        height: auto;
+        margin-left: 14%;
     }
-    h3
+    header h2
     {
-        font-size: 30px;
+        margin-left: 14%;
     }
-
+    .mike
+    {
+        margin-left: 14%;
+    }
+    .nav
+    {
+        margin-left: 14%;
+    }
+    .links
+    {
+        width: 52%;
+    }
+    .audio .plyr__controls
+    {
+        width: 100%;
+    }
+    .audio .plyr__progress
+    {
+        width: 70%;
+        right: 10%;
+    }
+    .audio .plyr__controls .plyr__time
+    {
+        right: 10%;
+    }
 
 }
-/*@media screen and (max-width: 800px) {
 
-    .content
+@media screen and (max-width: 1100px) {
+    .links
     {
-        padding-left: 0%;
-        padding-right: 0%;
+        flex-wrap: wrap;
+    }
+    .content {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .audio
+    {
+        width: 100%;
+        height: auto;
+    }
+    .audio .plyr__controls
+    {
+        width: 100%;
+    }
+    .audio .plyr__progress
+    {
+        width: 70%;
+        right: 10%;
+    }
+    .audio .plyr__controls .plyr__time
+    {
+        right: 10%;
+    }
+    .video
+    {
+        width: 100%;
+        height: auto;
+    }
+    .video .plyr__video-wrapper video
+    {
+        width: 100%;
+    }
+    .video .plyr__controls
+    {
+        width: 100%;
+    }
+    .comments textarea
+    {
+        width: 98%;
+    }
+    .youtube
+    {
+        width: 100%;
+        height: auto;
+    }
+    .tip-the-author
+    {
         width: 100%;
     }
 
-    article h3
+}
+
+@media screen and (max-width: 480px) {
+
+    .content
+    {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    article p
     {
         font-size: 20px;
     }
-} */
+    article h3
+    {
+        font-size: px;
+    }
+
+}
+
+@media screen and (max-width: 320px)
+{
+
+    .content
+    {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    article p
+    {
+        font-size: 30px;
+    }
+    article h3
+    {
+        font-size: 60px;
+    }
+}

@@ -8,6 +8,7 @@ body
 {
     font-family: Lato;
     max-width: 100%;
+    font-size: 16px;
 }
 
 
@@ -30,7 +31,7 @@ header
 .header__tittle
 {
     padding-top: 100px;
-    padding-left: 215px;
+    margin-left: 215px;
     letter-spacing: -3px;
     word-spacing: 7px;
     color: #ffffff;
@@ -48,16 +49,10 @@ header h2
     margin-bottom: 23px;
 }
 
-header p
-{
-    padding-left: 215px;
-}
-
 .imgmike
 {
     height: 26px;
     width: 26px;
-    padding-left: 215px;
     margin-right: 15px;
 }
 
@@ -68,6 +63,14 @@ header p
     justify-content: flex-start;
     align-items: center;
     list-style: none;
+    margin-left: 215px;
+}
+.mike1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     padding-right: 40px;
 }
 
@@ -164,7 +167,7 @@ header p
 
 .content
 {
-    margin-left: 24%;
+    margin-left: 385px;
     max-width: 1000px;
     width: 830px;
 }
@@ -268,6 +271,7 @@ article p
 	justify-content: flex-start;
 	align-items: center;
     margin-top: 2px;
+    max-width: 500px;
 }
 
 .flex-links-menu
@@ -401,9 +405,8 @@ article p
     background-color: #f0f0f0;
     border-radius: 2px;
     border-color: #f0f0f0;
-    padding-left: 40px;
     padding-top: 4px;
-    margin: auto;
+    padding-left: 40px;
 }
 
 .audio .plyr .plyr__volume
@@ -468,7 +471,7 @@ article p
 {
     position: absolute;
     top: 112px;
-    left: 740px;
+    right: 46px;
     font-size: 10pt;
 }
 
@@ -476,7 +479,7 @@ article p
 {
     position: absolute;
     top: 134px;
-    left: 150px;
+    right: 46px;
     width: 625px;
 }
 
@@ -505,12 +508,13 @@ article p
 } */
 .video
 {
-    width: 790px;
-    height: 355px;
+    width: 830px;
+    height: 391px;
     border: 19px solid #f0f0f0;
     border-radius: 2px;
     margin-top: 58px;
     margin-bottom: 25px;
+    box-sizing: border-box;
 }
 .video .plyr__video-wrapper
 {
@@ -562,7 +566,7 @@ article p
 {
     position: absolute;
     width: 717px;
-    left: 46px;
+    right: 46px;
     top: 55px;
 
 }
