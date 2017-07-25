@@ -22,31 +22,35 @@
     }
     .img-article4 img
     {
-        padding-right: 3%;
+        margin-right: 3%;
         width: 31%;
         height: auto;
     }
     .social-net
     {
-        left: 50%;
+        right: 13%;
     }
-    .header__tittle
+    footer p
+    {
+        left: 13%;
+    }
+    .header__tittleh1
     {
         margin-left: 14%;
     }
-    header h2
+    .header__tittleh2
     {
         margin-left: 14%;
     }
-    .mike
+    .header__author
     {
         margin-left: 14%;
     }
-    .nav
+    .header__nav
     {
         margin-left: 14%;
     }
-    .links
+    .content__links
     {
         width: 52%;
     }
@@ -66,8 +70,8 @@
 
 }
 
-@media screen and (max-width: 1100px) {
-    .links
+@media screen and (max-width: 1200px) {
+    .content__links
     {
         flex-wrap: wrap;
     }
@@ -107,16 +111,40 @@
     {
         width: 100%;
     }
+    .video .plyr__progress
+    {
+        width: 86%;
+    }
+    .video .plyr__play-large
+    {
+        left: 47%;
+    }
+    .video span[class="plyr__time"]
+    {
+
+    }
     .comments textarea
     {
-        width: 98%;
+        width: 95%;
     }
     .youtube
     {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     .tip-the-author
+    {
+        width: 100%;
+    }
+    .strike > span:before
+    {
+        width: 44%;
+    }
+
+    .strike > span:after {
+        width: 45%;
+    }
+    footer
     {
         width: 100%;
     }
@@ -129,6 +157,7 @@
     {
         margin-left: 3%;
         margin-right: 3%;
+        width: 94%;
     }
 
     article p
@@ -139,10 +168,72 @@
     {
         font-size: px;
     }
+    .tweet img
+    {
+        width: 70%;
+        height: auto;
+        overflow: hidden;
+    }
+    .links-menu
+    {
+        flex-wrap: wrap;
+    }
+    .youtube
+    {
+        width: 85%;
+        height: auto;
+    }
+    .comments textarea
+    {
+        width: 90%;
+    }
+    .tip-the-author
+    {
+        width: 99%;
+    }
+    .audio
+    {
+        width: 90%;
+    }
+    .audio .plyr__controls
+    {
+        width: 100%;
+    }
+    .audio .plyr__progress
+    {
+        width: 70%;
+        right: 10%;
+    }
+    .audio .plyr__controls .plyr__time
+    {
+        right: 10%;
+    }
+    .video
+    {
+        width: 90%;
+        height: auto;
+        border-width: 10px;
+    }
+    .video .plyr__video-wrapper video
+    {
+        width: 100%;
+    }
+    .video .plyr__controls
+    {
+        width: 100%;
+    }
+    .video .plyr__progress
+    {
+        width: 86%;
+    }
+    .video .plyr__play-large
+    {
+        left: 47%;
+    }
 
 }
 
-@media screen and (max-width: 320px)
+/* @media screen and (max-width: 320px)
 {
 
     .content
@@ -158,4 +249,4 @@
     {
         font-size: 60px;
     }
-}
+} */

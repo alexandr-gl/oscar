@@ -83,21 +83,17 @@
 {
     margin-right: 39px;
 }
-#article4 div[class="links"]
-{
-	padding-top: 24px;
-}
 
 
 #article5
 {
 	margin-top: 66px;
-    margin-bottom: 71px;
+    margin-bottom: 75px;
 }
-#article5 .links
+#article5 .content__links
 {
 	justify-content: flex-start;
-    padding-top: 23px;
+    margin-top: 25px;
 }
 #article5 p
 {
@@ -170,7 +166,7 @@
     margin-bottom: 30px;
 	margin-top: 0px;
 }
-#article7 .links
+#article7 .content__links
 {
     padding-top: 0px;
 }
@@ -191,9 +187,9 @@
 {
     margin-bottom: 50px;
 }
-#article8 .links
+#article8 .content__links
 {
-    padding-top: 0px;
+    margin-top: 8px;
 }
 
 #article8 p
@@ -290,11 +286,17 @@
     margin-top: 54px;
     margin-bottom: 67px;
 }
-#article9 .links
+#article9 .content__links
 {
     margin-left: 16px;
+    margin-top: 30px;
+}
+#article9 p
+{
+    margin-top: 33px;
+    font-size: 18px;
 }
 #art9_author
 {
-    margin-right: 43px;
+    margin-right: 40px;
 }
