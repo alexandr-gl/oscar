@@ -228,6 +228,7 @@ body
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: nowrap;
     align-items: center;
     width: 830px;
 }
@@ -310,8 +311,11 @@ body
 
 #article5 .donate-border1
 {
+    border: 1px solid #999999;
     width: 18px;
     height: 18px;
+    text-align: center;
+
 }
 
 .border-share
