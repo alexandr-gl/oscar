@@ -74,12 +74,12 @@ body
     padding-right: 40px;
 }
 
-.header__nav__icon
+.header__nav-icon
 {
     padding-right: 9px;
 }
 
-.header__nav__item
+.header__nav-item
 {
     display: flex;
     flex-direction: row;
@@ -90,7 +90,7 @@ body
     font-family: Lato;
 }
 
-.header__nav__item:hover
+.header__nav-item:hover
 {
     color: #955c24;
 }
@@ -102,7 +102,7 @@ body
     font-size: 14px;
 }
 
-.header__nav__li
+.header__nav-li
 {
 	display: flex;
 	flex-direction: row;
@@ -114,12 +114,12 @@ body
     padding-left: 0px;
 }
 
-.header__nav__share
+.header__nav-share
 {
 	margin-right: 25px;
 }
 
-.header__nav_p
+.header__nav-p
 {
     padding-left: 9px;
 }
@@ -172,7 +172,7 @@ body
     width: 830px;
 }
 
-.content__article-h3
+.article__h3
 {
     /* letter-spacing: ; */
     /* word-spacing: 3px; */
@@ -182,7 +182,7 @@ body
     padding-bottom: 21px;
 }
 
-.content__article-p
+.article__p
 {
     color: #000000;
     font-size: 18px;
@@ -193,7 +193,8 @@ body
     margin-bottom: 28px;
 }
 
-.author
+.article__author,
+.author__li
 {
     display: flex;
     flex-direction: row;
@@ -207,7 +208,7 @@ body
 
 }
 
-.author img
+.article__author-img
 {
     padding-right: 6px;
     width: 21px;
@@ -222,7 +223,7 @@ body
     margin-right: 4px;
 }
 
-.content__links
+.article__links
 {
     margin-top: 28px;
     display: flex;
@@ -232,7 +233,7 @@ body
     align-items: center;
     width: 830px;
 }
-#article4 .content__links
+#article4 .article__links
 {
     margin-top: 24px;
 }
@@ -318,7 +319,7 @@ body
 
 }
 
-.border-share
+.share__border
 {
     position: absolute;
     left: -11px;
@@ -326,7 +327,7 @@ body
     z-index: 1;
 }
 
-.rectangle
+.border__rectangle
 {
     border: 3px solid #e5e5e5;
     height: 172px;
@@ -373,27 +374,27 @@ body
     align-items: center;
 }
 
-.email
+.share-links__email
 {
     color: #777b82;
 }
-.facebook
+.share-links__facebook
 {
     color: #3764ae;
 }
-.twitter
+.share-links__twitter
 {
     color: #33aad6;
 }
-.pinterest
+.share-links__pinterest
 {
     color: #d63333;
 }
-.google
+.share-links__google
 {
     color: #f04213;
 }
-.tumblr
+.share-links__tumblr
 {
     color: #364c74;
 }
