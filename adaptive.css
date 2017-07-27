@@ -10,27 +10,27 @@
         margin-left: 24%;
         margin-right: 24%;
     }
-    .img-article3
+    .article__img_size_big
     {
         width: 100%;
         height:auto;
     }
-    .img-article4
+    .article__img-inline
     {
         width: 100%;
         height: auto;
     }
-    .img-article4 img
+    .img-inline_size_mid
     {
         margin-right: 3%;
         width: 31%;
         height: auto;
     }
-    .social-net
+    .footer__social-net
     {
         right: 13%;
     }
-    footer p
+    .footer__copyright
     {
         left: 13%;
     }
@@ -125,7 +125,7 @@
     {
 
     }
-    .comments textarea
+    .comments__textarea
     {
         width: 95%;
     }
@@ -134,19 +134,19 @@
         width: 90%;
         height: auto;
     }
-    .tip-the-author
+    .content__tip-the-author
     {
         width: 100%;
     }
-    .strike > span:before
+    .comments__line > span:before
     {
         width: 44%;
     }
 
-    .strike > span:after {
+    .comments__line > span:after {
         width: 45%;
     }
-    footer
+    .footer
     {
         width: 100%;
     }
@@ -182,14 +182,20 @@
         margin-top: 5%;
         flex-wrap: nowrap;
     }
-    .header__nav__li
+    .header__nav-li
     {
         margin-bottom: 5px;
         margin-right: 3%;
     }
-    .header__nav__icon
+    .header__nav-item
+    {
+        font-size: 12px;
+    }
+    .header__nav-icon
     {
         margin-right: 2px;
+        width: 50%;
+        height: auto;
     }
     .header__nav_p
     {
@@ -201,6 +207,11 @@
         margin-left: 3%;
         font-size: 15px;
     }
+    .header__donate-border
+    {
+        width: 19px;
+        height: 19px;
+    }
     .content
     {
         margin-left: 3%;
@@ -209,54 +220,46 @@
         overflow: hidden;
     }
 
-    article p
+    .article__p
     {
         font-size: 20px;
     }
-    article h3
+    .article__h3
     {
         font-size: px;
     }
-    .tweet img
+    .tweet__img
     {
         width: 70%;
         height: auto;
     }
     article__author,
-    article__author-li
+    author__li
     {
         margin-right: 1px;
     }
-    .article__links
-    {
-        flex-wrap: nowrap;
-    }
-    #article5 .article__links
+    article__links_margin5_info
     {
         flex-wrap: wrap;
     }
-    .drop-down
+    .article__drop-down
     {
         margin-left: 20%;
     }
-    .links-menu
+    .article__links-menu
     {
         flex-wrap: wrap;
-    }
-    .links-menu li
-    {
-        padding-top: 5px;
     }
     .youtube
     {
         width: 85%;
         height: auto;
     }
-    .comments textarea
+    .comments__textarea
     {
         width: 90%;
     }
-    .tip-the-author
+    .content__tip-the-author
     {
         width: 99%;
     }
@@ -303,38 +306,6 @@
     .video .plyr__play-large
     {
         left: 47%;
-    }
-    #art1_author
-    {
-        margin-right: 5%;
-    }
-    #art1_date
-    {
-        margin-right: 5%;
-    }
-    #art2_author
-    {
-        margin-right: 3%;
-    }
-    #art2_date
-    {
-        margin-right: 3%;
-    }
-    #art7_author
-    {
-        margin-right: 5%;
-    }
-    #art7_date
-    {
-        margin-right: 5%;
-    }
-    #art8_author
-    {
-        margin-right: 5%;
-    }
-    #art8_date
-    {
-        margin-right: 5%;
     }
 
 }
