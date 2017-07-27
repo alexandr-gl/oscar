@@ -303,9 +303,10 @@
 }
 .article__links_margin9_info
 {
-    margin-left: 16px;
+    padding-left: 16px;
     margin-top: 26px;
     position: relative;
+    box-sizing: border-box;
 }
 .article__drop-down_margin_mid
 {
