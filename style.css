@@ -88,6 +88,7 @@ body
 	text-decoration: none;
     font-family: Lato;
     color: white;
+    cursor: pointer;
 }
 
 .header__nav-item:hover
@@ -241,6 +242,7 @@ body
     float: right;
     width: 20px;
     height: 10px;
+    cursor: pointer;
 }
 
 .article__img_size_big
@@ -426,6 +428,17 @@ body
 .audio
 {
     margin-bottom: 30px;
+    overflow: hidden;
+}
+.audio__tittle
+{
+    position: absolute;
+    color: black;
+    font-style: italic;
+    z-index: 1;
+    top: 107px;
+    left: 159px;
+
 }
 .audio .plyr__controls
 {
@@ -499,7 +512,7 @@ body
 .audio .plyr__controls .plyr__time
 {
     position: absolute;
-    top: 56px;
+    top: 51px;
     right: 46px;
     font-size: 10pt;
 }
@@ -507,7 +520,7 @@ body
 .audio .plyr__progress
 {
     position: absolute;
-    top: 77px;
+    top: 74px;
     right: 46px;
     width: 625px;
 }

@@ -162,11 +162,12 @@
 .content__article_margin_7
 {
     margin-bottom: 90px;
+    position: relative;
 }
 .article__h3_margin7_tittle
 {
     padding-bottom: 0;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
 	margin-top: 0;
 }
 .article__links_margin7_info

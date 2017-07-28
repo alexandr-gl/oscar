@@ -169,15 +169,33 @@
     }
 
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 760px){
     .audio .plyr__progress
     {
         width: 65%;
         right: 10%;
     }
+    .audio__tittle
+    {
+        font-size: 13px;
+        left: 30%;
+    }
+    .audio .plyr__controls .plyr__time
+    {
+        font-size: 13px;
+    }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 653px) {
 
+    .audio__tittle
+    {
+        font-size: 12px;
+        left: 20%;
+    }
+    .audio .plyr__controls .plyr__time
+    {
+        font-size: 12px;
+    }
     .content__ul-com-author
     {
         font-size: 13px;
@@ -351,12 +369,12 @@
     }
     .audio .plyr__progress
     {
-        width: 60%;
-        right: 10%;
+        width: 70%;
+        right: 3%;
     }
     .audio .plyr__controls .plyr__time
     {
-        right: 10%;
+        right: 3%;
     }
     .video
     {
@@ -382,7 +400,40 @@
     }
 
 }
-
+@media screen and (max-width: 450px)
+{
+    .audio .plyr__controls button[data-plyr="play"]
+    {
+        width: 50px;
+        height: 50px;
+        background-size: 50px 50px;
+    }
+    .audio .plyr__controls button[data-plyr="play"] svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .audio .plyr__progress
+    {
+        width: 78%;
+        right: 3%;
+        top: 45px;
+    }
+    .audio .plyr__controls .plyr__time
+    {
+        top: 35px;
+    }
+    .audio .plyr__controls
+    {
+        height: 80px;
+    }
+    .audio__tittle
+    {
+        top: 120px;
+        left: 70px;
+        text-overflow: ellipsis;
+    }
+}
 @media screen and (max-width: 330px)
 {
     .footer__copyright
