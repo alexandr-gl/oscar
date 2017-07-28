@@ -317,7 +317,7 @@
 
     .article__drop-down
     {
-        margin-left: 0%;
+        margin-left: 0;
     }
     .article__links-menu
     {
@@ -428,7 +428,7 @@
 	{
 		top: 70px;
 	} 
-	.links-menu__p
+	.links-menu__span
 	{
 		font-size: 10px;
 		margin-left: 2px;

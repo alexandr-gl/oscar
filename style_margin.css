@@ -63,15 +63,15 @@
 
 .article__h3_margin4_tittle
 {
-    padding-bottom: 0px;
+    padding-bottom: 0;
     margin-bottom: 19px;
 }
 
 .article__p_margin4_text
 {
     margin-bottom: 30px;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 0;
+    padding-top: 0;
 }
 .article__links_margin4_info
 {
@@ -100,7 +100,7 @@
 }
 .article__p_margin5_text
 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .author__li_margin5_name
 {
@@ -165,9 +165,9 @@
 }
 .article__h3_margin7_tittle
 {
-    padding-bottom: 0px;
+    padding-bottom: 0;
     margin-bottom: 32px;
-	margin-top: 0px;
+	margin-top: 0;
 }
 .article__links_margin7_info
 {
@@ -231,7 +231,7 @@
 .content__p_margin1_mid
 {
     margin-bottom: 7px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 .comments__replies_margin2_mid
 {
@@ -244,7 +244,7 @@
 .content__p_margin2_mid
 {
     line-height: 27px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     margin-bottom: 5px;
 }
 .comments__replies_margin3_mid
