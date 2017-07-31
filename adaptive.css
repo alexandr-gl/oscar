@@ -65,18 +65,13 @@
     }
     .audio .plyr__progress
     {
-        width: 70%;
+        width: 80%;
         right: 10%;
     }
     .audio .plyr__controls .plyr__time
     {
         right: 10%;
     }
-
-
-}
-
-@media screen and (max-width: 1590px) {
     .article__links
     {
         flex-wrap: wrap;
@@ -167,9 +162,16 @@
     {
         flex-wrap: wrap;
     }
+    .audio__tittle
+    {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        left: 20%;
+    }
 
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 800px){
     .audio .plyr__progress
     {
         width: 65%;
@@ -178,7 +180,7 @@
     .audio__tittle
     {
         font-size: 13px;
-        left: 30%;
+        left: 25%;
     }
     .audio .plyr__controls .plyr__time
     {
@@ -191,6 +193,9 @@
     {
         font-size: 12px;
         left: 20%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
     .audio .plyr__controls .plyr__time
     {
@@ -363,13 +368,9 @@
         width: 100%;
         padding-left: 5px;
     }
-    .audio .plyr__controls button[data-plyr="play"]
-    {
-
-    }
     .audio .plyr__progress
     {
-        width: 70%;
+        width: 80%;
         right: 3%;
     }
     .audio .plyr__controls .plyr__time
@@ -392,7 +393,7 @@
     }
     .video .plyr__progress
     {
-        width: 80%;
+        width: 85%;
     }
     .video .plyr__play-large
     {
@@ -400,7 +401,19 @@
     }
 
 }
-@media screen and (max-width: 450px)
+
+@media screen and (max-width: 600px)
+{
+    .audio .plyr__progress
+    {
+        width: 75%;
+    }
+    .audio__tittle
+    {
+        left: 22%;
+    }
+}
+@media screen and (max-width: 490px)
 {
     .audio .plyr__controls button[data-plyr="play"]
     {
@@ -415,7 +428,7 @@
     }
     .audio .plyr__progress
     {
-        width: 78%;
+        width: 80%;
         right: 3%;
         top: 45px;
     }
@@ -429,9 +442,29 @@
     }
     .audio__tittle
     {
-        top: 120px;
-        left: 70px;
-        text-overflow: ellipsis;
+        top: 35px;
+        left: 17%;
+    }
+    .video .plyr__progress
+    {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 350px)
+{
+    .audio .plyr__progress
+    {
+        width: 75%;
+        right: 3%;
+        top: 45px;
+    }
+    .audio__tittle
+    {
+        left: 22%;
+    }
+    .video .plyr__progress
+    {
+        width: 77%;
     }
 }
 @media screen and (max-width: 330px)

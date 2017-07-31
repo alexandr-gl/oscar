@@ -428,7 +428,7 @@ body
 .audio
 {
     margin-bottom: 30px;
-    overflow: hidden;
+    position: relative;
 }
 .audio__tittle
 {
@@ -436,8 +436,11 @@ body
     color: black;
     font-style: italic;
     z-index: 1;
-    top: 107px;
+    top: 47px;
     left: 159px;
+    display: block;
+    width: 41%;
+    white-space: nowrap;
 
 }
 .audio .plyr__controls
