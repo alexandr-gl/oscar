@@ -175,8 +175,6 @@ body
 
 .article__h3
 {
-    /* letter-spacing: ; */
-    /* word-spacing: 3px; */
     color: #000000;
     font-size: 24px;
     font-weight: 600;
@@ -258,7 +256,6 @@ body
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /* align-items: center; */
 }
 
 .img-inline_size_mid
@@ -774,7 +771,6 @@ body
 {
     color: #020202;
     font-weight: 100;
-    /*margin-bottom: 0px;*/
 }
 
 .comments__replies_margin_big
