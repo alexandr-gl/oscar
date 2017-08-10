@@ -101,6 +101,7 @@ body
     margin-left: 215px;
     margin-top: 208px;
     font-size: 14px;
+    height: 22px;
 }
 
 .header__nav-li
@@ -165,9 +166,6 @@ body
 
 .content
 {
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-left: 385px;
     max-width: 1000px;
     width: 830px;
@@ -884,10 +882,6 @@ body
 
 .footer__social-net
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
     list-style: none;
     position: absolute;
     right: 205px;
@@ -903,9 +897,13 @@ body
 }
 .footer__social-net-li
 {
-    padding-right: 10px;
+    padding-right: 8px;
+    display: inline;
 }
-
+.social-net__a
+{
+    height: 50px;
+}
 .footer__copyright
 {
     position: relative;
