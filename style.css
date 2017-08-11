@@ -237,7 +237,7 @@ body
 {
     float: right;
     width: 20px;
-    height: 10px;
+    height: 20px;
     cursor: pointer;
 }
 
@@ -895,14 +895,15 @@ body
     border-radius: 30px;
     border: 0;
 }
+.social-net-li__a
+{
+    display: inline-block;
+}
 .footer__social-net-li
 {
     padding-right: 8px;
-    display: inline;
-}
-.social-net__a
-{
-    height: 50px;
+    display: inline-block;
+    box-sizing: content-box;
 }
 .footer__copyright
 {
